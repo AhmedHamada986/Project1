@@ -1,0 +1,126 @@
+:root{
+    --main-colore:#1C1C1C; 
+    --second-colore:#F7F7F7;
+}
+section{
+    margin: 50px 0;
+}  
+.bg1{
+    background-color: var(--second-colore);
+}
+a{
+    color: white;
+}
+#header{ 
+    
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(../imgs/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+}
+  /* about section */
+ .progress-bar{
+  background-color:var(--main-colore);
+ } 
+
+ /* services section */
+ .card-services i{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--main-colore);
+
+ }
+ .card-services:hover i{
+    background-color:var(--main-colore);
+    color: var(--second-colore);
+
+ }
+ .but-1:hover{
+    background-color: white;
+ }
+ /* portfolio section */
+ .portfolio-layer{
+
+    position: absolute;
+    inset: 0;
+    background-color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .portfolio-image:hover .portfolio-layer{
+    border: #1C1C1C solid gray;
+    opacity: 1;
+ }
+ /* bar section */
+
+ .nav-pills{
+    width: fit-content;
+    margin: auto;
+    
+ }
+ /* Testimonials section  */
+ .carousel-item img{
+    width: 100px;
+ }
+ .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--main-colore);
+ }
+   /* start team section  */
+   .div-team{
+    background-color:#5B5B5B;
+    color: white;
+    margin: auto;
+   }
+   
+
+   /* start contact section  */
+   .container-contact{
+    width: 70%;
+    margin-top: 50px    ;
+   }
+  .con1 i{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--second-colore);
+  }
+  .con1:hover i{
+    background-color:var(--main-colore);
+    color: var(--second-colore);
+
+  }
+  textarea{
+
+    margin-top: 30px;
+  }
+  /* end section */
+  
+.footer {
+    text-align: center;
+    padding: 80px;
+   
+    color: rgb(61, 53, 53);
+  }
+  #footer{
+
+    height: 200px;
+  }
+  
+  .footer-btn:hover button{
+    background-color: white;
+    color: #1C1C1C;
+
+  }
